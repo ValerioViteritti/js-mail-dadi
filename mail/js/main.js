@@ -26,7 +26,11 @@ const emailUser = prompt('inserisci email')
 
 // let control =
 
-// let vincitore = false;
+// function myFunction() {
+//     document.getElementById("button").click();
+ 
+
+let vincitore = false;
 
 for (let i = 0; i < dataBase.length; i++){
 
@@ -34,18 +38,22 @@ for (let i = 0; i < dataBase.length; i++){
 
     if (dataBase[i] === emailUser){
         vincitore = true;
-        console.log(vincitore);
-    } else {
-        dataBase[i] !== emailUser
-        perdente = false;
-        console.log(perdente);
+        
 
     }
+
+    console.log(vincitore);
+    // } else {
+    //     dataBase[i] !== emailUser
+    //     perdente = false;
+    //     console.log(perdente);
+
+    // }
 
 }
 
 
-
+// }
 
     // 2.1 - Se la mail è presente passa oltre
     // if (vincitore) {
